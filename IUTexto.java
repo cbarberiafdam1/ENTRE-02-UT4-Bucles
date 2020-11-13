@@ -60,7 +60,7 @@ public class IUTexto
             System.out.println("\n\nQuiere hacer otra suma en octal? (S/s)");
             String cadena = this.teclado.next();
             seguir = cadena.charAt(0);
-            System.out.print('\u000C');
+            Pantalla.borrarPantalla();
         }
     }
 
